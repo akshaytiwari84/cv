@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Home</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: "Open Sans", sans-serif;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #fff;
+              }
+              .header {
+                position: relative;
+                height: 100vh;
+                min-height: 600px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                background-image: url(../imgs/header.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              }
+              
+              .header .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+                background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+              }
+             
+              
+              .header .header-content .header-title .up {
+                font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+                font-weight: 500;
+                color: #444;
+                margin-bottom: 5px;
+                position: relative;
+                display: block;
+              }
+              
+              .header .header-content .header-title .down {
+                font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+                margin-bottom: 0;
+                position: relative;
+                display: block;
+              }
+              
+              .header .header-content .header-subtitle {
+                font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+                letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+                opacity: .8;
+                margin-top: -10px;
+                margin-bottom: 20px;
+              }
+              
+              .header .header-content .btn {
+                position: relative;
+                margin-top: 20px;
+                border-radius: 20px;
+                padding: 8px 15px;
+              }
+              
+              
+              
+              
+              
+              
+        </style>
+    </head>
+    <body>
+        <header id="home" class="header">
+            <div class="overlay"></div>
+            <div class="header-content container">
+                <h1 class="header-title">
+                    <!-- <span class="up"></span> -->
+                    <span class="down">About</span>
+                </h1>
+                <p class="header-subtitle">I completed my Bachelor of Technology in Civil Engineering. I attended DAV Public School for my primary and secondary education.
+
+                    Aside from academics, I have a keen interest in traveling and exploring new places. I believe that traveling helps me broaden my perspective and learn about new cultures, lifestyles, and history.
+                    
+                    In addition to my post-graduation studies, I'm also pursuing a BSc in Data Science from the Indian Institute of Technology (IIT) Madras. I'm excited about this course as I believe that data science is a field with immense potential and will be crucial in shaping the future of various industries.
+                    
+                    I've previously worked as a BIM Trainee, where I gained hands-on experience in Building Information Modeling (BIM) software and learned how to create, manage and share digital representations of physical and functional characteristics of buildings.
+                    
+                    I'm passionate about learning new skills, and I believe that continuous learning is key to staying relevant in today's fast-paced world. I'm always on the lookout for opportunities to grow my knowledge and skills, and I'm excited about what the future holds for me.
+                </p>   
+                <button class="btn btn-primary" onclick="window.location.href='index.html'">Home</button>         
+    
+               
+            </div>              
+        </header>
+    </body>
+</html>
+<!-- file:///C:/mySite/mySite/public/login.html -->
